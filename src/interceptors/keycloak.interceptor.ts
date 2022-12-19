@@ -3,9 +3,9 @@ import {
   InvocationResult,
   ValueOrPromise,
 } from '@loopback/core';
-import {HttpErrors, RestBindings} from '@loopback/rest';
+import { HttpErrors, RestBindings } from '@loopback/rest';
 import KeycloakConnect from 'keycloak-connect';
-import {KEYCLOAK_CONNECTOR_SERVICE} from '../services/keycloak-connector.service';
+import { KEYCLOAK_CONNECTOR_SERVICE } from '../services/keycloak-connector.service';
 
 export function protect(roles = '') {
   return (
