@@ -5,9 +5,7 @@ import {
   createServiceBinding,
   inject,
 } from '@loopback/core';
-import {
-  KeycloakConnectorServiceProvider,
-} from '../services';
+import {KeycloakConnectorServiceProvider} from '../services';
 
 export class KeycloakComponent implements Component {
   constructor(@inject(CoreBindings.APPLICATION_INSTANCE) app: Application) {

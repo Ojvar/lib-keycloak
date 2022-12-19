@@ -1,1 +1,1 @@
-export * from "./keycloak.sequence"
+export * from './keycloak.sequence';
