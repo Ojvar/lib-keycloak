@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/naming-convention */
 import {BindingKey, BindingScope, injectable, Provider} from '@loopback/core';
 import KeycloakConnect from 'keycloak-connect';
 
